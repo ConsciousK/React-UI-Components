@@ -18,8 +18,7 @@
     flex-wrap: nowrap;
     flex-direction: column;
     width: 85%;
-    align-self: flex-start;
-    margin-left: 0;
+    justify-self: flex-end;
 }
 
 .HeaderTitle .main {
@@ -37,5 +36,6 @@
 .HeaderContent {
     display: block;
     align-self: flex-start;
+    font-size: 1rem;
     margin: 10px auto;
 }
