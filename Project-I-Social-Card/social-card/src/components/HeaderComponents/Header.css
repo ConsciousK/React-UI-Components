@@ -1,1 +1,41 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+    Display: Flex;
+    justify-content: flex-start;
+    Margin: 0 auto;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.ImageThumbnail {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    margin-right: 2%;
+}
+.HeaderTitle {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 85%;
+    justify-self: flex-end;
+}
+
+.HeaderTitle .main {
+    display: flex;
+    margin: 0;
+    font-style: bold;
+    font-size: 16px;
+}
+.HeaderTitle .stamp {
+    display: flex;
+    align-self: flex-start;
+    font-style: italic;
+    font-size: 12px;
+}
+.HeaderContent {
+    display: block;
+    align-self: flex-start;
+    font-size: 1rem;
+    margin: 10px auto;
+}
